@@ -1,0 +1,7 @@
+{
+  "Ghostscript": {
+    "ExecutablePath": "gswin64c.exe",
+    "Device": "pxlcolor"
+  },
+  "Urls": "http://localhost:5000"
+}
