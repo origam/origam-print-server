@@ -28,7 +28,7 @@ public class GhostscriptPrinter(
     IConfiguration config, 
     ILogger<GhostscriptPrinter> log)
 {
-	private static readonly int ProcessTimeout = 60_000; //ms
+    private static readonly int ProcessTimeout = 60_000; //ms
     
     private readonly string ghostscriptPath 
         = config["Ghostscript:ExecutablePath"] ?? "gswin64c.exe";
