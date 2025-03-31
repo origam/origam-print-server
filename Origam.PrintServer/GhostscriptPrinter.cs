@@ -33,7 +33,7 @@ public class GhostscriptPrinter(
     private readonly string ghostscriptPath 
         = config["Ghostscript:ExecutablePath"] ?? "gswin64c.exe";
     private readonly string ghostscriptDevice
-        = config["Ghostscript:Device"] ?? "pxlcolor";
+        = config["Ghostscript:Device"] ?? "mswinpr2";
 
     public void PrintPdf(string printerName, string filePath)
     {

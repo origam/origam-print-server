@@ -99,7 +99,7 @@ The service reads configuration from `appsettings.json`. Below is a sample:
 {
   "Ghostscript": {
     "ExecutablePath": "gswin64c.exe",
-    "Device": "pxlcolor"
+    "Device": "mswinpr2"
   },
   "Urls": "http://localhost:5000"
 }
@@ -108,7 +108,7 @@ The service reads configuration from `appsettings.json`. Below is a sample:
 ### Configuration Options
 
 - `Ghostscript.ExecutablePath`: Name or full path to the Ghostscript executable (e.g. `gswin64c.exe`)
-- `Ghostscript.Device`: Ghostscript output device (e.g. `pxlcolor`, `mswinpr2`)
+- `Ghostscript.Device`: Ghostscript output device (e.g. `pxlcolor`, `mswinpr2`, default: `mswinpr2`)
 - `Urls`: Address the HTTP server listens on (default: `http://localhost:5000`)
 
 ### Logging
